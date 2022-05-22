@@ -4,5 +4,3 @@ app=Flask(__name__)
 @app.route('/')
 def index():
 	return 'Hello world with flask'
-
-app.run()
